@@ -38,7 +38,6 @@ const ContactPage = () => {
   return (
     <>
       <MetaTags title="Contact" description="Contact page" />
-
       <Toaster />
       <Form
         onSubmit={onSubmit}
